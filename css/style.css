@@ -1,7 +1,7 @@
 /* Seteo los archivos del body*/
 body{
   box-sizing: border-box;
-  color:
+  color: #303030;
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
@@ -50,4 +50,33 @@ section{
 div{
   display: inline-block;
   width: 33%; /*le pongo el ancho que deseo*/
+}
+
+span{
+  font-size: 60px;
+}
+/*llamo a  la segunda sección (ultima) section, que pertenece al body, */
+body section:last-child{
+  margin: 30px 50px 0px 60px;
+}
+/*imagen cuyo atributo alt es laboratoria, le aplico el estilo que deseo*/
+img[alt="Laboratoria"]{
+  width: 120px;
+}
+
+button{
+  background-color: #f9a91a; /*le doy un color de relleno*/
+  padding: 10px;
+  color: rgb(255,255,255);
+  border: 0; /*le quito el color al borde*/
+  border-radius: 8px; /*redondeoel borde*/
+  font-weight: 600; /*le doy el grosor que deseo*/
+}
+
+.box-header ul li{
+  margin: 0px 15px 15px 0px; /* aplico un margin, no padding ya que me agrandaría el link que le di a la lista*/
+}
+
+span:hover{ /* con hover, indico que cuando pase el curso qué estilo le aplico*/
+  color: #f9a91a; /*le aplico el estilo de color*/
 }
