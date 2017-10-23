@@ -1,0 +1,53 @@
+/* Seteo los archivos del body*/
+body{
+  box-sizing: border-box;
+  color:
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Clases reutilizables*/
+/*hace el texto en mayúscula*/
+.text-uppercase{
+  text-transform: uppercase;
+}
+
+/*Clases específicas(reutilizable)*/
+/*Una clase para convertir en bloque*/
+.box-header{
+  display: inline-block;
+}
+
+.logo-header{
+  width: 200px;
+}
+/*para que este uno al lado del otro*/
+li {
+  display: inline;
+  list-style: none; /*para desaparecer mi lista*/
+  color: inherit; /*hereda del body los mismo valores*/
+}
+li a{
+  color: inherit;
+  text-decoration: none;
+}
+header{
+  position: relative;
+}
+nav{
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%); /*transformo el elemento*/
+}
+/*centrando el texto*/
+section{
+  text-align: center;
+}
+
+/*hago que mis div esten uno al lado del otro*/
+div{
+  display: inline-block;
+  width: 33%; /*le pongo el ancho que deseo*/
+}
